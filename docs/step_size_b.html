@@ -1,0 +1,92 @@
+<html lang="en-UK">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Step size is a consequential parameter</title>
+
+    <style>
+      div.container {
+        text-align: center;
+        }
+      ul.unlist {
+        display: inline-block;
+        text-align: center;
+        width: 60%
+      }
+      ol.ordlist {
+        display: inline-block;
+        text-align: left;
+        width: 70%
+      }
+      .box{
+    display: none;
+    width: 100%;
+  }
+  a:hover + .box,.box:hover{
+      display: block;
+      position: relative; 
+      z-index: 100;
+  }
+  div.big {
+  font-style: italic;
+  font-size: 30px;
+}
+.underline {
+  text-decoration: underline;
+}
+
+    </style>
+
+  </head>
+  <body>
+
+  <!-- title section -->
+  <div align="center">
+    <h1>Step size is a consequential parameter</h1>
+  </div>
+
+  <!-- image section -->
+  <div align="center">
+      <a href="step_size.html">
+        <img src="assets/step_size_ball_drop.gif" alt="" width=40%>
+      </a>
+      <ul class="unlist">
+        <em>
+          Ball drop simulation in PyBullet, with step size = a) 1/24000 s, b) 1/2400 s, c) 1/240 s (PyBullet default) and d) 1/24 s.
+        </em>
+      </ul>
+  </div>
+  <!-- text section -->
+
+  <div class="container">
+      <ul class="unlist">
+      </ul>
+  </div>
+
+
+  <!-- slide navigation section -->
+  <div align="center">
+    <br>
+    <a href="step_size.html">Previous</a>--
+    <a href="toc.html">Table of Contents</a>--
+    <a href="step_size_c.html">Next</a>
+  </div>
+
+  <div align="center">
+    </div>
+
+  <div align="center">
+      <br>
+      <img src="assets/too_big_step_size_ball_drop.gif" alt="" width=40%>
+          <br>
+          <ul class="unlist">
+            <em>
+              The usual failure mode associated with step size, and the on most likely to be checked when setting up a numerical simulation, is catastrophic failure from a step size too large.
+              Step size here is 1/2.4 seconds, 100 times larger than the PyBullet default.
+            </em>
+          </ul>
+  </div>
+  </body>
+</html>

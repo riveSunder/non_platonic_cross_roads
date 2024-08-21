@@ -1,0 +1,96 @@
+<!-- -->
+<html lang="en-UK">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>The Control Problem, etc.</title>
+
+    <style>
+      div.container50 {
+        text-align: center;
+        width: 50%
+        }
+      div.container {
+        text-align: center;
+        }
+      ul.unlist {
+        display: inline-block;
+        text-align: left;
+        width: 70%
+      }
+      ol.ordlist {
+        display: inline-block;
+        text-align: left;
+        width: 70%
+      }
+      .box{
+    display: none;
+    width: 100%;
+  }
+  a:hover + .box,.box:hover{
+      display: block;
+      position: relative; 
+      z-index: 100;
+  }
+
+    </style>
+
+  </head>
+  <body>
+
+  <!-- title section -->
+  <div align="center">
+    <h1>The Control Problem, etc.</h1>
+  </div>
+
+  <!-- image section -->
+  <div align="center">
+      <br>
+      <img src="assets/harli_reset_wave_strategy_small.gif" width=800 alt="A cellular automata environment controlled by an evolved Hebbian policy">
+      <br>
+  <div class="container50">
+      Reward trace on the right and Life-like cellular automata environment on the left. The agent can toggle the cells in the central square area. An objective function rewards changing center of mass outside of the action area cells. This policy has learned to generate high rewards by creating linear waves and resetting the environment by toggling all the action cells at once. 
+  </div>
+  </div>
+
+  <!-- text section -->
+  <div class="container">
+      <ul class="unlist">
+        <h3><li>It's very difficult (perhaps intractable in complex environments) to perfectly describe desired values so that negative side effects are avoided.</li></h3>
+        <h3><li>Instead of patching emergent side effects and engineering better shackles, might we explore a collaborative approach?</li></h3>
+  </div>
+
+
+  <!-- slide navigation section -->
+  <div align="center">
+    <br><br>
+    <a href="intro_enactivism.html">Previous</a>--
+    <a href="toc.html">Table of Contents</a>--
+    <a href="step_size.html">Next</a>
+  </div>
+      <br>
+      <br>
+      <br>
+      <br>
+
+  <div align="center">
+      <br>
+      <img src="assets/strategy_demo_127.gif" width=650 alt="A cellular automata environment controlled by an evolved Hebbian policy">
+      <br>
+    <div class="container50">
+      The policy is Hebbian! The weights are initialized randomly, and the evolved Hebbian learning rule eventually finds a way to enact the reward exploit policy. The policy was evolved in Life-like rules B3/S023 (DotLife), B3/S236, B3/S237, and B3/S238. Life itself (B3/S23) was held out as a validation rule set. Although archetypical light/middle weight spaceships do not work in each of the rule sets, the wave+reset policy is effective in generating high rewards in all five rules. The agent policy, dubbed Hebbian Automata Reinforcement Learning Improviser (HARLI), is a neural cellular automata defined by 4 Hebbian parameters per weight. 
+    </div>
+  </div>
+  <!-- 
+        <h3><li>Why is the dominant (Western?) response to the possibility of insubordinate [peers, technology, aliens, artificial life] to engineer better shackles?</li></h3>
+        <h3><li>Shouldn't we at least consider acknowledging machine agency and build from there? <a href="https://www.wired.com/story/ideas-joi-ito-robot-overlords">Why Westerners Fear Robots and the Japanese Do Not (Joi Ito 2018)</a>
+    <div class="box">
+       <iframe src="https://www.wired.com/story/ideas-joi-ito-robot-overlords" width=80% height=512>
+       </iframe>
+  </div></li></h3>
+      </ul>
+-->
+  </body>
+</html>

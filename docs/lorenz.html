@@ -1,0 +1,74 @@
+<!-- -->
+<html lang="en-UK">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Rate conflation in the Lorenz system</title>
+
+    <style>
+      div.container {
+        text-align: center;
+        }
+      ul.unlist {
+        display: inline-block;
+        text-align: left;
+        width: 70%
+      }
+      ol.ordlist {
+        display: inline-block;
+        text-align: center;
+        width: 70%
+      }
+      .box{
+    display: none;
+    width: 100%;
+  }
+  a:hover + .box,.box:hover{
+      display: block;
+      position: relative; 
+      z-index: 100;
+  }
+
+    </style>
+
+  </head>
+  <body>
+
+  <!-- title section -->
+  <div align="center">
+    <h1>Rate conflation in the Lorenz system</h1>
+  </div>
+
+  <!-- image section -->
+  <div align="center">
+      <br>
+      <img src="assets/lorenz_dt.png" alt="Lorenz system simulated at different step sizes">
+      <br>
+        <ol class="ordlist">
+        <em>
+          A typical butterfly attractor can be simulated in the Lorenz system with a step size of 0.03 and a set of parameters that, when simulated with sufficiently small step size (0.015), leads to a quiescent point.
+        </em>
+        </ol>
+
+  </div>
+
+  <!-- text section -->
+  <div class="container">
+      <ul class="unlist">
+        <li><h3>We can reproduce the classic butterfly morphology at a set of parameters that would normally lead to a quiescent settled state, just by using a larger step size.</h3> </li>
+      </ul>
+  </div>
+
+
+  <!-- slide navigation section -->
+  <div align="center">
+    <br><br>
+    <a href="logistic.html">Previous</a>--
+    <a href="toc.html">Table of Contents</a>--
+    <a href="aliasing.html">Next</a>
+  </div>
+
+  </body>
+</html>

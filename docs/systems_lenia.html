@@ -1,0 +1,122 @@
+<html lang="en-UK">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Non-Platonism in Lenia</title>
+
+    <style>
+      div.container {
+        text-align: center;
+        }
+      ul.unlist {
+        display: inline-block;
+        text-align: left;
+        width: 70%
+      }
+      ol.ordlist {
+        display: inline-block;
+        text-align: center;
+        width: 60%
+      }
+      .box{
+    display: none;
+    width: 100%;
+  }
+  a:hover + .box,.box:hover{
+      display: block;
+      position: relative; 
+      z-index: 100;
+  }
+  div.big {
+  font-style: italic;
+  font-size: 30px;
+}
+.underline {
+  text-decoration: underline;
+}
+
+    </style>
+
+  </head>
+  <body>
+
+  <!-- title section -->
+  <div align="center">
+    <h1>Non-Platonism in ...</h1>
+    <h2>Original Lenia (<a href="https://www.complex-systems.com/abstracts/v28_i03_a01/">Chan 2019</a>)</h2>
+    
+  </div>
+
+
+  <!-- text section -->
+  <!-- video section -->
+  <div align="center">
+
+    <!-- 'video for everyone' code snippet from https://camendesign.com/code/video_for_everybody -->
+    <video width="640" height="640" controls="">
+      <source src="assets/scutium_gravidus_single000_dt_demo.mp4" type="video/mp4" /><!-- Safari / iOS video    -->
+    <!-- <source src="__VIDEO__.OGV" type="video/ogg" /><!-- Firefox / Opera / Chrome10 --> -->
+    <!-- fallback to Flash: -->
+      <object width="512" height="512" type="application/x-shockwave-flash" data="__FLASH__.SWF">
+        <!-- Firefox uses the `data` attribute above, IE/Safari uses the param below -->
+        <param name="movie" value="__FLASH__.SWF" />
+        <param name="flashvars" value="assets/scutium_gravidus_single000_dt_demo.mp4" />
+        <!-- fallback image. note the title field below, put the title of the video there -->
+  <!--      <img src="" width="512" height="512" alt="" title="No video playback capabilities, please download the video below" />-->
+      </object>
+    </video>
+    <br>
+    <ol class="ordlist">
+        <em>
+          Non-Platonism with respect to temporal resolution for a </em>Scutium gravidus<em> glider in standard Lenia. <a href="scutium_gravidus_single000_dt_demo.mp4">download (mp4)</a>.
+        </em>
+    </ol>
+  </div>
+
+  <!-- slide navigation section -->
+  <div align="center">
+    <br><br>
+    <a href="systems_a.html">Previous</a>--
+    <a href="toc.html">Table of Contents</a>--
+    <a href="systems_sl.html">Next</a>
+  </div>
+
+  <div align="center">
+    </div>
+
+  <!-- image section -->
+  <div align="center">
+      <br>
+      <img src="assets/lenia_summary.png" alt="" width=50%>
+      <br>
+        <ol class="ordlist">
+          <em>
+            The Lenia growth function update is totalistic, depending only on the neighborhood values. The dynamics aren't entirely totalistic, however, as a memory of the previous state comes through in the state + update formula. 
+          </em>
+        </ol>
+  </div>
+
+  <!-- image section -->
+  <div align="center">
+      <br>
+      <img src="assets/lenia_eqn_annotated.png" alt="" width=50%>
+      <br>
+      <ol class="ordlist">
+        <em>
+          Classic Lenia resembles the Euler method with one key difference: a truncating or squashing function constrains values between 0 and 1. 
+        </em>
+      </ol>
+  </div>
+
+  <div class="container">
+      <ul class="unlist">
+        <li>B. W.-C. Chan, "Lenia: Biology of Artificial Life," Complex Systems, 28(3), 2019 pp. 251–286.
+        <a href="https://doi.org/10.25088/ComplexSystems.28.3.251">https://doi.org/10.25088/ComplexSystems.28.3.251</a> <a href="https://arxiv.org/abs/1111.1567">https://arxiv.org/abs/1111.1567</a>, 
+        <a href="https://www.complex-systems.com/abstracts/v28_i03_a01/">https://www.complex-systems.com/abstracts/v28_i03_a01/</a></li>
+      </ul>
+  </div>
+
+  </body>
+</html>

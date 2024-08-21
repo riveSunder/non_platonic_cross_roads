@@ -1,0 +1,79 @@
+<!-- -->
+<html lang="en-UK">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Aliasing and interference.</title>
+
+    <style>
+      div.container {
+        text-align: center;
+        }
+      ul.unlist {
+        display: inline-block;
+        text-align: left;
+        width: 70%
+      }
+      ol.ordlist {
+        display: inline-block;
+        text-align: center;
+        width: 70%
+      }
+      .box{
+    display: none;
+    width: 100%;
+  }
+  a:hover + .box,.box:hover{
+      display: block;
+      position: relative; 
+      z-index: 100;
+  }
+
+    </style>
+
+  </head>
+  <body>
+
+  <!-- title section -->
+  <div align="center">
+    <h1>Aliasing and interference</h1>
+  </div>
+
+  <!-- image section -->
+  <div align="center">
+      <br>
+      <a href="systems_alenia.html">
+        <img src="assets/asymdrop_aliasing.png" alt="persistence map in a Gray-Scott reaction-diffusion system" width=30%>
+      </a>
+      <br>
+      <em>
+        Aliasing artifacts in a low-resolution asymdrop glider (click to revisit the video).
+      </em>
+
+  </div>
+
+  <!-- text section -->
+  <div class="container">
+      <ul class="unlist">
+        <li><h3>Aliasing occurs when the frequency (or rate of change) in time or space is greater than 1/2 the sampling frequency (The <a href="https://en.wikipedia.org/wiki/Nyquist_rate">Nyquist frequency</a>).</h3> </li>
+        <li><h3>Higher frequencies wrap around in Fourier space, and appear as lower frequencies (this is the principle behind structured illumination super-resolution microscopy).</h3> </li>
+        <li><h3><em>e.g.</em> The wagon-wheel effect, jagged "stair-step" edges in images, etc.</h3> </li>
+      </ul>
+  </div>
+
+
+  <!-- slide navigation section -->
+  <div align="center">
+    <br><br>
+    <a href="lorenz.html">Previous</a>--
+    <a href="toc.html">Table of Contents</a>--
+    <a href="checkerboard.html">Next</a>
+  </div>
+
+    <br><br>
+For a beautiful example of temporal aliasing in guitar strings, check out AcousticTrench playing the Last of Us theme (<a href="https://www.youtube.com/watch?v=BOUpNtk5Spk">youtube</a>)
+
+  </body>
+</html>

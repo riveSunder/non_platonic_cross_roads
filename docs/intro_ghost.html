@@ -1,0 +1,76 @@
+<!-- -->
+<html lang="en-UK">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>The Ghost: Apart from or a Part of the Machine?</title>
+
+    <style>
+      div.container {
+        text-align: center;
+        }
+      ul.unlist {
+        display: inline-block;
+        text-align: left;
+        width: 70%
+      }
+      ol.ordlist {
+        display: inline-block;
+        text-align: left;
+        width: 70%
+      }
+      .box{
+    display: none;
+    width: 100%;
+  }
+  a:hover + .box,.box:hover{
+      display: block;
+      position: relative; 
+      z-index: 100;
+  }
+
+    </style>
+
+  </head>
+  <body>
+
+  <!-- title section -->
+  <div align="center">
+    <h1>The Ghost in the Machine: Apart from or a Part of?</h1>
+  </div>
+
+  <!-- image section -->
+  <div align="center">
+      <br>
+      <img src="assets/nes_hopper.gif" width=900 alt="Lenia update">
+      <br>
+      HopperBulletEnv-v0 policy learned with <a id="nes" href="https://en.wikipedia.org/wiki/Natural_evolution_strategy">natural evolution strategies</a>
+      with <a id="bevodevo" href="https://github.com/riveSunder/bevodevo">bevodevo</a> library.   
+   <a id="nes_cli" href="nes_cli.txt">cli command for training policy</a>
+    <div class="box">
+       <iframe src="nes_cli.txt" width=50%>
+       </iframe>
+    </div>
+  </div>
+
+  <!-- text section -->
+  <div class="container">
+      <ul class="unlist">
+        <h3><li>The Hopper robot above resides in a world defined by the <a href="https://pybullet.org/wordpress/">PyBullet</a> physics simulator, but the control policy is wholly seperate and has no obligation to the physical rules of the simulator.</li></h3>
+        <h3><li>The reinforcement learning framework, with strictly delineated agents and environments and explicitly defined communication channels, is reflective of the kind of mind/body dualism Gilbert Ryle criticized in <a href="https://en.wikipedia.org/wiki/The_Concept_of_Mind">"Concept of Mind" (1949)</a></li></h3>
+      </ul>
+  </div>
+
+
+  <!-- slide navigation section -->
+  <div align="center">
+    <br><br>
+    <a href="intro_open_ended.html">Previous</a>--
+    <a href="toc.html">Table of Contents</a>--
+    <a href="intro_enactivism.html">Next</a>
+  </div>
+
+  </body>
+</html>

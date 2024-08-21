@@ -1,0 +1,118 @@
+<html lang="en-UK">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Breaking symmetry</title>
+
+    <style>
+      div.container {
+        text-align: center;
+        }
+      ul.unlist {
+        display: inline-block;
+        text-align: left;
+        width: 70%
+      }
+      ol.ordlist {
+        display: inline-block;
+        text-align: center;
+        width: 60%
+      }
+      .box{
+    display: none;
+    width: 100%;
+  }
+  a:hover + .box,.box:hover{
+      display: block;
+      position: relative; 
+      z-index: 100;
+  }
+  div.big {
+  font-style: italic;
+  font-size: 30px;
+}
+.underline {
+  text-decoration: underline;
+}
+
+    </style>
+
+  </head>
+  <body>
+
+  <!-- title section -->
+  <div align="center">
+    <h1>Breaking symmetry</h1>
+    <h2>Discretization can lead to symmetry breaking.</h2>
+    
+  </div>
+
+  <!-- video section -->
+  <div align="center">
+
+    <!-- 'video for everyone' code snippet from https://camendesign.com/code/video_for_everybody -->
+    <video width="640" height="640" controls="">
+      <source src="assets/floats_s113_amorphous_changing_glider000_symmetry.mp4" type="video/mp4" /><!-- Safari / iOS video    -->
+    <!-- <source src="__VIDEO__.OGV" type="video/ogg" /><!-- Firefox / Opera / Chrome10 --> -->
+    <!-- fallback to Flash: -->
+      <object width="512" height="512" type="application/x-shockwave-flash" data="__FLASH__.SWF">
+        <!-- Firefox uses the `data` attribute above, IE/Safari uses the param below -->
+        <param name="movie" value="__FLASH__.SWF" />
+        <param name="flashvars" value="assets/floats_s113_amorphous_changing_glider000_symmetry.mp4" />
+        <!-- fallback image. note the title field below, put the title of the video there -->
+  <!--      <img src="" width="512" height="512" alt="" title="No video playback capabilities, please download the video below" />-->
+      </object>
+    </video>
+
+    <br>
+    <ol class="ordlist">
+        <em>
+          Breaking symmetry at float64 and float16 precision. <a href="assets/floats_s113_amorphous_changing_glider000_symmetry.mp4">(download mp4)</a>
+        </em>
+    </ol>
+  </div>
+
+  <!-- slide navigation section -->
+  <div align="center">
+    <br><br>
+    <a href="checkerboard.html">Previous</a>--
+    <a href="toc.html">Table of Contents</a>--
+    <a href="courant_a.html">Next</a>
+  </div>
+
+  <!-- video section -->
+  <div align="center">
+
+    <!-- 'video for everyone' code snippet from https://camendesign.com/code/video_for_everybody -->
+    <video width="640" height="640" controls="">
+      <source src="assets/s113_amorphous_changing_glider000_float32_dt_demo.mp4" type="video/mp4" /><!-- Safari / iOS video    -->
+    <!-- <source src="__VIDEO__.OGV" type="video/ogg" /><!-- Firefox / Opera / Chrome10 --> -->
+    <!-- fallback to Flash: -->
+      <object width="512" height="512" type="application/x-shockwave-flash" data="__FLASH__.SWF">
+        <!-- Firefox uses the `data` attribute above, IE/Safari uses the param below -->
+        <param name="movie" value="__FLASH__.SWF" />
+        <param name="flashvars" value="assets/s113_amorphous_changing_glider000_float32_dt_demo.mp4" />
+        <!-- fallback image. note the title field below, put the title of the video there -->
+  <!--      <img src="" width="512" height="512" alt="" title="No video playback capabilities, please download the video below" />-->
+      </object>
+    </video>
+
+    <br>
+    <ol class="ordlist">
+        <em>
+          Breaking symmetry at float32 precision with different time steps (<a href="s113_amorphous_changing_glider000_float32_dt_demo.mp4">download mp4</a>).
+        </em>
+    </ol>
+  </div>
+  <div align="center">
+    </div>
+
+  <div class="container">
+      <ul class="unlist">
+        <li><em>The pseudoglider above was found with methods described in: </em><br>Q. Tyrell Davis and Josh Bongard. 2022. Selecting continuous life-like cellular automata for halting unpredictability: evolving for abiogenesis. In Proceedings of the Genetic and Evolutionary Computation Conference Companion (GECCO '22). Association for Computing Machinery, New York, NY, USA, 104–107. https://doi.org/10.1145/3520304.3529037<a href="https://arxiv.org/abs/2204.07541">arxiv:2204:07541</a>. </li>
+      </ul>
+
+  </body>
+</html>

@@ -1,0 +1,128 @@
+<html lang="en-UK">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Non-Platonism in SmoothLife</title>
+
+    <style>
+      div.container {
+        text-align: center;
+        }
+      ul.unlist {
+        display: inline-block;
+        text-align: left;
+        width: 70%
+      }
+      ol.ordlist {
+        display: inline-block;
+        text-align: center;
+        width: 60%
+      }
+      .box{
+    display: none;
+    width: 100%;
+  }
+  a:hover + .box,.box:hover{
+      display: block;
+      position: relative; 
+      z-index: 100;
+  }
+  div.big {
+  font-style: italic;
+  font-size: 30px;
+}
+.underline {
+  text-decoration: underline;
+}
+
+    </style>
+
+  </head>
+  <body>
+
+  <!-- title section -->
+  <div align="center">
+    <h1>Non-Platonism in</h1>
+    <h2>SmoothLife (<a href="https://arxiv.org/abs/1111.1567">Rafler 2011</a>)</h2>
+    
+  </div>
+
+
+  <!-- text section -->
+  <!-- video section -->
+  <div align="center">
+
+    <!-- 'video for everyone' code snippet from https://camendesign.com/code/video_for_everybody -->
+    <video width="640" height="640" controls="">
+      <source src="assets/smoothlife_single_glider000_dt_demo.mp4" type="video/mp4" /><!-- Safari / iOS video    -->
+    <!-- <source src="__VIDEO__.OGV" type="video/ogg" /><!-- Firefox / Opera / Chrome10 --> -->
+    <!-- fallback to Flash: -->
+      <object width="512" height="512" type="application/x-shockwave-flash" data="__FLASH__.SWF">
+        <!-- Firefox uses the `data` attribute above, IE/Safari uses the param below -->
+        <param name="movie" value="__FLASH__.SWF" />
+        <param name="flashvars" value="assets/smoothlife_single_glider000_dt_demo.mp4" />
+        <!-- fallback image. note the title field below, put the title of the video there -->
+  <!--      <img src="" width="512" height="512" alt="" title="No video playback capabilities, please download the video below" />-->
+      </object>
+    </video>
+
+    <br>
+    <ol class="ordlist">
+        <em>
+          Non-Platonism with respect to temporal resolution (step size $\Delta t$) SmoothLife. <a href="assets/smoothlife_single_glider000_dt_demo.mp4">download (mp4)</a>.
+        </em>
+    </ol>
+  </div>
+
+  <div class="container">
+      <ul class="unlist">
+        <li><h3>Unlike earlier continuous CA (CAPOW <a href="https://web.archive.org/web/20240415070558/https://www.rudyrucker.com/pdf/rucker_continuous_CAs_in_2D.pdf">Rucker 1999</a>; and <a href="https://web.archive.org/web/20240422181600/http://web.eecs.utk.edu/~bmaclenn/papers/CSA-tr.pdf">MacLennan 1990</a>) Rafler reported the appearance of a glider in SmoothLife (<a href="https://arxiv.org/abs/1111.1567">2011</a>). However, gliders had been previously reported in 2009 in a reaction diffusion system: <a href="https://www.mrob.com/sci/papers/2009smp-figs/index.html">U-Skate World</a>.</h3></li> 
+      </ul>
+  </div>
+
+  <!-- slide navigation section -->
+  <div align="center">
+    <br><br>
+    <a href="systems_lenia.html">Previous</a>--
+    <a href="toc.html">Table of Contents</a>--
+    <a href="systems_nca.html">Next</a>
+  </div>
+
+  <div align="center">
+    </div>
+
+  <!-- image section -->
+  <div align="center">
+      <br>
+      <img src="assets/smoothlife_summary.png" alt="" width=50%>
+      <br>
+        <em>
+          SmoothLife outer and inner neighborhood kernels, and the update function comprising genesis and persistence (analogous to B and S rules in Life).
+        </em>
+  </div>
+
+  <!-- image section -->
+  <div align="center">
+      <br>
+      <img src="assets/smoothlife_eqns_annotated.png" alt="" width=50%>
+      <br>
+      <ol class="ordlist">
+        <em>
+          SmoothLife fits directly into the Euler method. The SmoothLife update PDE is made up of smooth intervals (constructed from sigmoids), and separted into genesis and persistence (analogous to B and S in Life). The contribution of the genesis/persistence functions at any given point depends on the inner neighborhood value. 
+        </em>
+      </ol>
+  </div>
+
+  <div class="container">
+      <ul class="unlist">
+        <li><h4>Rafler, S. (2011). Generalization of Conway's "Game of Life" to a continuous domain - SmoothLife. arXiv: Cellular Automata and Lattice Gases. <a href="https://arxiv.org/abs/1111.1567">arxiv:1111.1567</a></h4></li>
+        <li><h4><em>Note that my implementation of SmoothLife is based on the continuous time version mentioned in Rafler 2011, ported to the glaberish framework:</em> Davis, Q.T., & Bongard, J.C. (2022). Glaberish: Generalizing the Continuously-Valued Lenia Framework to Arbitrary Life-Like Cellular Automata. The 2022 Conference on Artificial Life. <a href="https://doi.org/10.1162/isal_a_00530">doi:10.1162/isal_a_00530</a>, <a href="https://arxiv.org/abs/2205.10463">arxiv:2205.10463</a></h4></li>
+        <li><h4>MacLennan, Bruce J.. "Continuous Spatial Automata." (1990). <a href="https://web.archive.org/web/20240422181600/http://web.eecs.utk.edu/~bmaclenn/papers/CSA-tr.pdf">pdf</a>.</h4></li>
+        <li><h4>Rucker, Rudy. "Continuous-Valued Cellular Automata in Two Dimensions." (1999). <a href="https://web.archive.org/web/20240415070558/https://www.rudyrucker.com/pdf/rucker_continuous_CAs_in_2D.pdf">pdf</a>.</h4></li>
+      </ul>
+  </div>
+
+  </body>
+</html>

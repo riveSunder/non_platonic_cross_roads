@@ -1,0 +1,2 @@
+# at commit a0beb6124
+python -m bevodevo.train -a NESPopulation -n HopperBulletEnv-v0 -g 650 -w 0 -pi MLPPolicy -p 320 -s 42

@@ -1,0 +1,115 @@
+<html lang="en-UK">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Non-Platonism in neural CA</title>
+
+    <style>
+      div.container {
+        text-align: center;
+        }
+      ul.unlist {
+        display: inline-block;
+        text-align: left;
+        width: 70%
+      }
+      ol.ordlist {
+        display: inline-block;
+        text-align: center;
+        width: 60%
+      }
+      .box{
+    display: none;
+    width: 100%;
+  }
+  a:hover + .box,.box:hover{
+      display: block;
+      position: relative; 
+      z-index: 100;
+  }
+  div.big {
+  font-style: italic;
+  font-size: 30px;
+}
+.underline {
+  text-decoration: underline;
+}
+
+    </style>
+
+  </head>
+  <body>
+
+  <!-- title section -->
+  <div align="center">
+    <h1>Non-Platonism in NCA</h1>
+    <h2>Neural Cellular Automata</h2>
+    
+  </div>
+
+  <!-- video section -->
+  <div align="center">
+
+    <!-- 'video for everyone' code snippet from https://camendesign.com/code/video_for_everybody -->
+    <video width="640" height="640" controls="">
+      <source src="assets/neurorbium000_dt_demo.mp4" type="video/mp4" /><!-- Safari / iOS video    -->
+    <!-- <source src="__VIDEO__.OGV" type="video/ogg" /><!-- Firefox / Opera / Chrome10 --> -->
+    <!-- fallback to Flash: -->
+      <object width="512" height="512" type="application/x-shockwave-flash" data="__FLASH__.SWF">
+        <!-- Firefox uses the `data` attribute above, IE/Safari uses the param below -->
+        <param name="movie" value="__FLASH__.SWF" />
+        <param name="flashvars" value="assets/neurorbium000_dt_demo.mp4" />
+        <!-- fallback image. note the title field below, put the title of the video there -->
+  <!--      <img src="" width="512" height="512" alt="" title="No video playback capabilities, please download the video below" />-->
+      </object>
+    </video>
+    <br>
+    <ol class="ordlist">
+        <em>
+          Non-Platonism with respect to temporal resolution (step size $\Delta t$) in a neural CA (NCA) with Lenia (Orbium) kernel. <a href="assets/neurorbium000_dt_demo.mp4">download (mp4)</a>.
+        </em>
+    </ol>
+  </div>
+
+  <!-- slide navigation section -->
+  <div align="center">
+    <br><br>
+    <a href="systems_sl.html">Previous</a>--
+    <a href="toc.html">Table of Contents</a>--
+    <a href="systems_alenia.html">Next</a>
+  </div>
+
+  <!-- image section -->
+  <div align="center">
+      <br>
+      <img src="assets/nca_summary.png" alt="" width=50%>
+      <br>
+        <ol class="ordlist">
+          <em>
+            Glider neural cellular automata: a cellular automata combining the radial Gaussian style of neighborhood kernel with neural network dynamics.
+          </em>
+  </div>
+
+  <!-- image section -->
+  <div align="center">
+      <br>
+      <img src="assets/nca_eqns_annotated.png" alt="" width=50%>
+      <br>
+      <ol class="ordlist">
+        <em>
+          In the NCA example shown here, the NCA update fits directly into the Euler method (no truncation function necessary). Dynamics are encoded in a 2d convolutional network with 1 by 1 kernels and 2 hidden layers, which takes as input channels the current cell states and neighborhoods at time t. [One of the hidden layers is omitted above for brevity].
+        </em>
+      </ol>
+  </div>
+
+  <div class="container">
+      <ul class="unlist">
+        <li><h4>Q. Tyrell Davis, "Discretization-Dependent Dissolution of Gliders in (Dis)Continuous Systems: Non-Platonic Self-Organization in Complex Systems", Innovations in Machine Intelligence (IMI), vol.3, pp. 1-23, 2023. <a href="https://www.imijournal.org/articles/discretization-dependent-dissolution-of-gliders-in-dis-continuous-systems-non-platonic-self-organization-in-complex-systems">DOI:10.54854/imi2023.01</a></h4></li>
+      </ul>
+  </div>
+  
+
+  </body>
+</html>

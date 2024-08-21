@@ -1,0 +1,88 @@
+<!-- -->
+<html lang="en-UK">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Rate conflation: the differential equation of the logistic</title>
+
+    <style>
+      div.container {
+        text-align: center;
+        }
+      ul.unlist {
+        display: inline-block;
+        text-align: left;
+        width: 70%
+      }
+      ol.ordlist {
+        display: inline-block;
+        text-align: left;
+        width: 70%
+      }
+      .box{
+    display: none;
+    width: 100%;
+  }
+  a:hover + .box,.box:hover{
+      display: block;
+      position: relative; 
+      z-index: 100;
+  }
+
+    </style>
+
+  </head>
+  <body>
+
+  <!-- title section -->
+  <div align="center">
+    <h1>The differential equation of the logistic function</h1>
+  </div>
+
+  <!-- image section -->
+  <div align="center">
+      <br>
+      <img src="assets/logistic_deq.png" alt="the differential equation of the logistic at different step sizes.">
+      <br>
+        <ol class="ordlist">
+        <em>
+          A continuous version of the logistic map. Sweeping across step size values in a numerical simulation of the logistic diff. eq. reproduces the hallmark bifurcation route to chaos of the  <a id="logistic" href="https://en.wikipedia.org/wiki/File:Feigenbaum_Tree.gif">logistic map.</a>
+    <div class="box">
+       <iframe src="https://en.wikipedia.org/wiki/File:Feigenbaum_Tree.gif" width=50% height=30%>
+       </iframe>
+    </div>
+        </em>
+        </ol>
+
+  </div>
+
+  <!-- text section -->
+  <div class="container">
+      <ul class="unlist">
+        <li><h3>In the differential equation of the logistic, modifying the step size dt or the rate variable r is equivalent.</h3></li>
+        <li><h3>I've roughly delineated the figure into regions corresponding to Prigogine's classification system for dynamical systems:</h3></li>
+          <ol class="ordlist">
+          <li>Equilibrium systems</li>
+          <li> Limit cycle systems</li>
+          <li>Strange attractor/chaotic systems</li>
+          <li>Dissipative structures (~white border regions in the figure)</li>
+        </ol>. 
+      </ul>
+  </div>
+
+
+  <!-- slide navigation section -->
+  <div align="center">
+    <br><br>
+    <a href="artifactual.html">Previous</a>--
+    <a href="toc.html">Table of Contents</a>--
+    <a href="lorenz.html">Next</a>
+  </div>
+  <div class="container">
+      <ul class="unlist">
+        <h4><li>Prigogine, I. (1978). Time, Structure, and Fluctuations. Science, 201, 777 - 785. <a href="https://web.archive.org/web/20100524181605/https://www.unioviedo.es/chely/CHELY/docencia/Lecciones/248ePrigogineScience78.pdf">archived pdf</a></li></h4>
+        <h4><li><em>A review of Prigogine's concept of dissipative structures as it relates to non-equilibrium self-organization:</em><br> Goldbeter, Albert. (2018). Dissipative structures in biological systems: bistability, oscillations, spatial patterns and waves. Phil. Trans. R. Soc. A.37620170376 <a href="https://web.archive.org/web/20191026095743/https://royalsocietypublishing.org/doi/10.1098/rsta.2017.0376">doi: 10.1098/rsta.2017.0376</a></li></h4>
+  </body>
+</html>
