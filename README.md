@@ -11,6 +11,7 @@ https://github.com/user-attachments/assets/9b051185-e668-4e9f-aa14-d76208745b97
 # Slides for "Simulated Universe Survival Guide"
 ## Cross Roads Seminar Series #49
 
+* View the slides: [https://rivesunder.github.io/non_platonic_cross_roads/](https://rivesunder.github.io/non_platonic_cross_roads/)
 * The talk: [https://www.youtube.com/watch?v=wiZ6mYkKhts](https://www.youtube.com/watch?v=wiZ6mYkKhts)
 
 The talk is mostly about work that was published in:
