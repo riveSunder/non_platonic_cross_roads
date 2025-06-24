@@ -24,4 +24,4 @@ Most of the code used can be found in the following repositories:
 
 * [https://github.com/rivesunder/fractal_persistence](https://github.com/rivesunder/fractal_persistence)
 * [https://github.com/rivesunder/yuca](https://github.com/rivesunder/yuca)
-* [https://github.com/rivesunder/https://github.com/riveSunder/DiscoGliders/](https://github.com/riveSunder/DiscoGliders/)
+* [https://github.com/riveSunder/DiscoGliders/](https://github.com/riveSunder/DiscoGliders/)
